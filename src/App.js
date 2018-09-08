@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -52,7 +52,5 @@ const ProgressBar = (props) => {
 const Filler = (props) => {
   return <div className="filler" style={{ width: `${props.percentage}%` }} />
 }
-
-
 
 export default App;
